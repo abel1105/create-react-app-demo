@@ -1,4 +1,4 @@
-import { FETCH_GITHUB_USER_ASYNC, REPLACE_USERS_DATA, SET_USER_INPUT } from '../Constants/UsersConstant';
+import { REPLACE_USERS_DATA, SET_USER_INPUT } from '../Constants/UsersConstant';
 
 export const fetchGithubUserAsync = input => {
   return dispatch => {
