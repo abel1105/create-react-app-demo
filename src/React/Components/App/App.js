@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import s from './App.module.css';
 import _ from 'lodash';
-import UserList from './UserList';
+import UserList from '../UserList/UserList';
 
 class App extends Component {
 

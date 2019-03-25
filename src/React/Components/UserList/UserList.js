@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from './App.module.css';
+import s from './UserList.module.css';
 
 class UserList extends React.Component {
   static propTypes = {
@@ -12,9 +12,9 @@ class UserList extends React.Component {
       <ul>
         {
           this.props.users.map(user => (
-            <li key={user.id}>
+            <li className={s.item} key={user.id}>
               <img src={user.avatar_url} className={s.image} />
-              <span className={s.Span}>{user.login}</span>
+              <span className={s.name}>{user.login}</span>
             </li>
           ))
         }
